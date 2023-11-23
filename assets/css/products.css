@@ -1,0 +1,124 @@
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .1875rem;
+}
+
+.card-img-actions {
+    position: relative;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.card-img {
+    width: 350px;
+}
+
+.star {
+    color: red;
+}
+
+.bg-cart {
+    background-color: orange;
+    color: #fff;
+}
+
+.bg-cart:hover {
+    color: #fff;
+}
+
+.bg-buy {
+    background-color: green;
+    color: #fff;
+    padding-right: 29px;
+}
+
+.bg-buy:hover {
+    color: #fff;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.categories-container {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.categories-container .category-link {
+    display: block;
+    padding: 8px 0;
+    font-family: "Poppins", sans-serif;
+    color: #635551;
+    /* Set the text color */
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 16px;
+    line-height: 15px;
+    margin-left: 5px;
+    /* Add a smooth color transition on hover */
+    text-transform: capitalize;
+
+    /* Hover effect */
+    &:hover {
+        color: #ff5821;
+        /* Change the text color on hover */
+    }
+}
+
+.categories-container .productname {
+    display: block;
+    padding: 8px 0;
+    font-family: "Poppins", sans-serif;
+    color: #635551;
+    /* Set the text color */
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 16px;
+    line-height: 15px;
+    margin-left: 5px;
+}
+
+/* Add styles for the dropdown container */
+.categories-container .dropdown a {
+    display: block;
+    padding: 8px 15px;
+    font-family: "Poppins", sans-serif;
+    color: #635551;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 16px;
+    line-height: 15px;
+    text-transform: capitalize;
+
+    /* Hover effect */
+    &:hover {
+        color: #ff5821;
+    }
+}
+
+.ctgrlink {
+    text-transform: capitalize;
+}
